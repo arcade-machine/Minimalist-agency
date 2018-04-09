@@ -3,9 +3,9 @@ body {
 }
 
 .container {
-    width: 1580px;
+    width: 1375px;
     margin: 0 auto;
-    padding-top: 65px;
+    padding-top: 58px;
     padding-left: 205px;
 }
 
@@ -46,6 +46,9 @@ header {
     content: "";
     position: absolute;
     
+    top: 10px;
+    left: 10px;
+    
     width: 32px;
     height: 25px;
        
@@ -56,10 +59,10 @@ header {
 .intro {
     position: relative;
     
-    padding-left: 206px;
+    padding-left: 215px;
     
     width: 650px;
-    margin-bottom: 640px;
+    margin-bottom: 567px;
     
     display: flex;
     flex-wrap: wrap;
@@ -71,8 +74,8 @@ header {
     
     position: absolute;
     
-    top: -329px;
-    left: -350px;
+    top: -323px;
+    left: -305px;
     
     width: 565px;
     height: 810px;
@@ -96,6 +99,8 @@ header {
 
 .intro h2 {
     position: relative;
+    top: -21px;
+    left: -5px;
     
     font-family: 'Nunito Sans', sans-serif;
     font-size: 100px;
@@ -113,7 +118,8 @@ header {
     content: "";
     
     position: absolute;
-    left: 450px;
+    left: 453px;
+    top: -2px;
     
     width: 10px;
     height: 90px;
@@ -121,6 +127,9 @@ header {
 }
 
 .intro p:nth-child(3) {
+    position: relative;
+    top: -5px;
+    
     font-family: 'Nunito Sans', sans-serif;
     font-size: 70px;
     line-height: 100px;
@@ -132,14 +141,22 @@ header {
     padding: 0;
 }
 
+.intro p{
+    margin: 0;
+    padding: 0;
+}
+
 .intro span {
+    margin: 0;
+    padding: 0;
+    
     color: rgb(51, 51, 51);
 }
 
 .what_we_do {
     display: flex;
     width: 1170px;
-    margin-bottom: 400px;
+    margin-bottom: 330px;
 }
 
 .what_we_do_content {
@@ -148,8 +165,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 516px;
-    margin-right: 170px;
+    width: 525px;
+    margin-right: 176px;
 }
 
 .what_we_do_content h2{
@@ -157,7 +174,7 @@ header {
     
     width: 640px;
     
-    left: -100px;
+    left: -95px;
     top: 40px;
     
     font-family: 'Playfair Display', serif;
@@ -170,8 +187,11 @@ header {
 }
 
 .what_we_do_content h3,
-.ideas h3 {
+.ideas h3,
+.contact_us h3{
     position: relative;
+    
+    left: 10px;
     
     font-family: 'Playfair Display', serif;
     font-size: 60px;
@@ -197,18 +217,21 @@ header {
 }
 
 .what_we_do_content span {
+    position: relative;
+    top: -10px;
+    
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
     line-height: 8px;
     font-weight: 700;
     letter-spacing: .12em;
     text-transform: uppercase;
-    color: rgba(57, 57, 57, .4);
+    color: rgb(57, 57, 57);
     
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
     padding: 0;
-    padding-left: 51px;
+    padding-left: 61px;
 }
 
 .what_we_do_content p{
@@ -220,11 +243,11 @@ header {
     
     margin: 0;
     padding: 0;
-    padding-left: 51px;
+    padding-left: 61px;
 }
 
 .what_we_do_content p {
-    margin-bottom: 40px;
+    margin-bottom: 27px;
 }
 
 .what_we_do_content p:last-child {
@@ -233,6 +256,8 @@ header {
 
 .what_we_do-images {
     position: relative;
+    
+    top: -22px;
     
     width: 486px;
 }
@@ -264,7 +289,7 @@ header {
     
     position: absolute;
     top: 60px;
-    left: 35px;
+    left: 60px;
     
     z-index: -1;
     
@@ -273,10 +298,11 @@ header {
 
 .ideas {
     position: relative;
+    left: -4px;
     display: flex;
     flex-direction: column;
     
-    margin-bottom: 425px;
+    margin-bottom: 380px;
 }
 
 .ideas h2{
@@ -284,7 +310,7 @@ header {
     
     width: 1000px;
     
-    left: -100px;
+    left: -90px;
     top: 40px;
     
     font-family: 'Playfair Display', serif;
@@ -297,6 +323,9 @@ header {
 }
 
 .promo {
+    position: relative;
+    top: -5px;
+    
     font-family: 'Nunito Sans', sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -306,8 +335,8 @@ header {
     
     margin: 0;
     padding: 0;
-    margin-left: 205px;
-    margin-bottom: 110px;
+    margin-left: 221px;
+    margin-bottom: 74px;
 }
 
 .ideas-content {
@@ -341,7 +370,7 @@ header {
     content: "F";
     position: absolute;
     
-    top: -100px;
+    top: -105px;
     left: -7px;
     
     font-family: 'Nunito Sans', sans-serif;
@@ -382,8 +411,8 @@ header {
 
 .ideas-image {
     position: absolute;
-    top: 450px;
-    left: 1050px;
+    top: 470px;
+    left: 1045px;
     
     width: 350px;
 }
@@ -407,6 +436,7 @@ header {
     position: absolute;
     
     left: -220px;
+    top: -50px;
     z-index: 2;
     
     font-family: 'Playfair Display', serif;
@@ -420,7 +450,8 @@ header {
 .ideas-image p {
     position: absolute;
     
-    left: -56px;
+    left: -66px;
+    top: -60px;
     
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
@@ -442,13 +473,13 @@ header {
 .recent_works {
     position: relative;
     
-    margin-bottom: 325px;
+    margin-bottom: 220px;
 }
 
 .recent_works h2{
     position: absolute;
     
-    left: -100px;
+    left: -90px;
     top: 40px;
     
     font-family: 'Playfair Display', serif;
@@ -462,29 +493,31 @@ header {
 
 .recent_works h3{
     position: relative;
-    
+        
     font-family: 'Playfair Display', serif;
     font-size: 60px;
     line-height: 121px;
     color: rgb(51, 51, 51);
     
     margin: 0;
-    margin-bottom: 130px;
+    margin-bottom: 98px;
     padding: 0;
+    padding-left: 6px;
 }
 
 .works-images {
+    position: relative;
+    left: -30px;
     display: flex;
     list-style: none;
     
-    margin-bottom: 45px;
+    margin-bottom: 0px;
 }
 
 .works-images li {
-    margin-right: 22px;
+    margin-right: 15px;
     
     border: solid 1px #f0f0f0;
-    box-sizing: border-box;
     
     width: 375px;
     height: 260px;
@@ -492,13 +525,12 @@ header {
 
 .works-head {
     margin: 0;
-    margin-bottom: 30px;
     padding: 0;
-    padding-top: 50px;
     padding-left: 50px;
-    padding-right: 75px;
-    padding-top: 50px;
-        
+    padding-top: 36px;
+    padding-right: 157px;
+    margin-bottom: 20px;
+    
     font-family: 'Playfair Display', serif;
     font-size: 36px;
     line-height: auto;
@@ -509,7 +541,7 @@ header {
     margin: 0;
     padding: 0;
     padding-left: 50px;
-    padding-right: 40px;
+    padding-right: 60px;
     
     font-family: 'Nunito Sans', sans-serif;
     font-size: 14px;
@@ -520,14 +552,219 @@ header {
 }
 
 .recent_works a{
+    position: relative;
+    top: -10px;
+    left: 10px;
+    
     text-decoration: none;
     
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 17px;
-    line-height: 28px;
+    font-size: 14px;
+    line-height: 121px;
     font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     
     box-sizing: border-box;
     
     color: rgb(230, 37, 37);
+}
+
+.contact_us {
+    position: relative;
+    
+    margin-bottom: 150px;
+}
+
+.contact_us h2 {
+    position: absolute;
+    
+    width: 1000px;
+    
+    left: -480px;
+    top: 40px;
+    
+    transform: rotate(270deg);
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    line-height: 8px;
+    color: rgba(90, 90, 90, .03);
+    
+    margin: 0;
+    padding: 0;
+}
+
+.contact_us p {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+    width: 300px;
+    
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    
+    color: rgb(137, 143, 159);
+    
+    margin: 0;
+    margin-bottom: 57px;
+    padding: 0;
+}
+
+.form {
+    position: relative;
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 1040px;
+    
+    padding-left: 140px;
+}
+
+.form ul {
+    list-style: none;
+    margin: 0;
+    margin-right: 70px;
+    padding: 0;
+}
+
+.form-name,
+.form-e_mail {
+    width: 400px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-bottom: solid 1px #4c4c4c;
+}
+
+.form-tel {
+    width: 400px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-bottom: solid 1px #4c4c4c;
+}
+
+.telephone {
+    position: relative;
+}
+
+.telephone::before {
+    content: "Optional";
+    
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    opacity: .2;
+    
+    top: 15px;
+    right: 0;
+}
+
+.form input:nth-child(3) {
+    margin-bottom: 0px;
+}
+
+.form input::placeholder{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    
+    color: rgb(137, 143, 159);
+    
+    margin: 0;
+    padding: 0;
+}
+
+.form-message {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    
+    color: rgb(137, 143, 159);
+    
+    margin: 0;
+    padding: 0;
+    
+    width: 560px;
+    height: 222px;
+    
+    resize: none;
+    
+    border: none;
+    border-bottom: solid 1px #4c4c4c;
+}
+
+.form-button {
+    display: inline-block;
+    vertical-align: top;
+    
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background-color: rgb(210, 36, 37);
+    color: rgb(255, 255, 255);
+    border: none;
+    
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    padding: 10px 20px;
+    
+    position: relative;
+    top: 0px;
+    left: 900px;
+    
+    width: 130px;
+    box-sizing: border-box;
+}
+
+.main-footer {
+    position: relative;
+    width: 1170px;
+    
+    padding-top: 70px;
+    padding-bottom: 90px;
+    
+    border-top: solid 1px #f3f3f3;
+}
+
+.main-footer::before {
+    content: "";
+    
+    position: absolute;
+    width: 428px;
+    height: 302px;
+    z-index: -1;
+    
+    margin: 0;
+    padding: 0;
+    
+    top: -130px;
+    left: -375px;
+    
+    background-image: url(../IMG/footer-drop.png);
+    background-repeat: no-repeat;
 }
